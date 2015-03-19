@@ -1,5 +1,4 @@
-.. --initial-header-level=3
-
+=================
 Password Policies
 =================
 
@@ -10,7 +9,6 @@ none
 
 strong
     The strong policy requires that the password must comply with the following rules:
-
     Minimum length of 7 characters
     Contain at least 1 number
     Contain at least 1 uppercase character
@@ -21,7 +19,7 @@ strong
     Must be different from the username
     Can not have repetitions of patterns formed by 3 or more characters (for example the password As1.$ AS1. $ is invalid)
 
-    Changing the default policies is highly discouraged. The use of weak passwords often lead to compromised servers by external attackers.
+**WARNING**: Changing the default policies is highly discouraged. The use of weak passwords often lead to compromised servers by external attackers.
 
 Strong password policy for Users
     Set a strong policy for Users Password (unchecked is 'none')
