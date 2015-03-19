@@ -3,7 +3,7 @@ use strict;
 use esmith::Build::CreateLinks qw(:all);
 
 for my $event (qw (user-modify user-create)) {
-event_actions($event,password_policies_update => '99');
+event_actions($event,nethserver-password-policies-update => '99');
 }
 
 
