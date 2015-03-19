@@ -23,6 +23,7 @@ NethServer configuration for password policies
 %preun
 
 %build
+%{makedocs}
 perl createlinks
 
 %install
