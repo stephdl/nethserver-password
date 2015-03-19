@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-use strict;
 use esmith::Build::CreateLinks qw(:all);
 
 for my $event (qw (user-modify user-create)) {
