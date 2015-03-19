@@ -21,3 +21,7 @@ The Minimum Password Age
 
 The number of days before sending a reminder
     Number of days on which the warning is sent by email
+
+.. raw:: html
+
+   {{{INCLUDE NethServer_Module_User_Plugin_*.html}}}
