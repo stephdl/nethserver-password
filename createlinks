@@ -5,4 +5,5 @@ for my $event (qw (user-modify user-create)) {
 event_actions($event, 'nethserver-password-policies-update' => '99');
 }
 
-
+my $event = "nethserver-password-update";
+event_actions($event, 'nethserver-password-PassExpires2yes-conf' => '10');
