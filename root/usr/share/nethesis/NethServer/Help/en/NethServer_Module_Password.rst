@@ -6,11 +6,14 @@ Modify The Password Policies (the default policy is strong)
 
 none
 ----
+    The none policy requires that the password must comply with the following rule:
+
     * There is no specific control over the password entered, but minimum length is 7 characters
 
 strong
 ------
-    * The strong policy requires that the password must comply with the following rules:
+    The strong policy requires that the password must comply with the following rules:
+
     * Minimum length of 7 characters
     * Contain at least 1 number
     * Contain at least 1 uppercase character
