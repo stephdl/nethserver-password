@@ -6,4 +6,6 @@ event_actions($event, 'nethserver-password-policies-update' => '99');
 }
 
 my $event = "nethserver-password-update";
-event_actions($event, 'nethserver-password-PassExpires2yes-conf' => '10');
+event_actions($event, 
+'initialize-default-databases' => '00',
+'nethserver-password-PassExpires2yes-conf' => '10');
