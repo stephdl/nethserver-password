@@ -4,8 +4,6 @@ Password Policies
 
 Modify The Password Policies (the default policy is strong)
 
-**WARNING**: Changing the default policies is highly discouraged. The use of weak passwords often lead to compromised servers by external attackers.
-
 Strong password policy for Users
     Set a strong policy for Users Password (unchecked is 'none')
 
