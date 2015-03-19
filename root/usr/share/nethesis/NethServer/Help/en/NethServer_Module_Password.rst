@@ -1,7 +1,7 @@
 .. --initial-header-level=3
 
 Password Policies
-^^^^^^^^^^^^^^^^^
+=================
 
 Modify The Password Policies (the default policy is strong)
 
