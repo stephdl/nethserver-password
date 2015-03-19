@@ -1,7 +1,7 @@
 Summary: NethServer configuration for password policies
 Name: nethserver-password
 Version: 1.0.0
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPL
 Source: %{name}-%{version}.tar.gz
 BuildArch: noarch
