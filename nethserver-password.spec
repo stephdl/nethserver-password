@@ -1,7 +1,7 @@
 Summary: NethServer configuration for password policies
 Name: nethserver-password
-Version: 1.0.0
-Release: 5%{?dist}
+Version: 1.0.1
+Release: 1%{?dist}
 License: GPL
 Source: %{name}-%{version}.tar.gz
 BuildArch: noarch
@@ -39,5 +39,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 
 %changelog
+* Mon Apr 6 2015 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.1-1-ns6
+- Action created to merge PassExpire2yes with user-{modify,create}
+
 * Sat Apr 4 2015 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.0-5-ns6
 - Initial release
