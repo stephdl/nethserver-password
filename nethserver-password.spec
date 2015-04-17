@@ -1,7 +1,7 @@
 Summary: NethServer configuration for password policies
 Name: nethserver-password
 Version: 1.0.2
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPL
 Source: %{name}-%{version}.tar.gz
 BuildArch: noarch
@@ -19,6 +19,21 @@ NethServer configuration for password policies
 %setup
 
 %post
+
+echo "
+ Hi
+
+ All my development work is done in my free time and from my own expenses. 
+ If you consider my work as something helpful, thank you to kindly make 
+ a donation to my paypal account and allow me to continue paying my server 
+ and all associated costs.
+
+ https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZPK8FKHVT4TY8
+
+ Thank in advance.
+ 
+ Stephane de Labrusse Alias Stephdl
+"
 
 %preun
 
@@ -39,6 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 
 %changelog
+* Sun May 3 2015 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.2-2-ns6
+- disclamer
+
 * Sun Apr 12 2015 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.2-1-ns6
 - The password policy for ibays has been removed since obsoleted
 
